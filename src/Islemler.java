@@ -8,13 +8,9 @@ public class Islemler {
     static Scanner scan = new Scanner(System.in);
     static int urunID = 0;
 
-    public static void main(String[] args) {
-        sahteUrunGiris();
-        islemlerAnaMenu();
-        //urunTanimla();
-    }
 
-    private static void sahteUrunGiris() {      //her seferinde urun girmektense bir kaç tane tanımladım
+
+    public static void sahteUrunGiris() {      //her seferinde urun girmektense bir kaç tane tanımladım
 
         urunID++;
         Urunler urun1 = new Urunler(urunID, "Elma", "Sarı", "Kg");
